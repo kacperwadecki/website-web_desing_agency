@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* home-page */
+
+.home-page {
+    background-image: url("../img/home-page-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+nav {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.logo {
+    width: 16.375rem;
+    height: 10.625rem;
+    margin-top: 6rem;
+}
+
+.home-page-text > h1 {
+    margin-top: 7rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.25rem;
+}
+
+.home-page-text > blockquote {
+    max-width: 44rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+.home-page-text > blockquote > footer {
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+/* advantages-page */
+
+.advantages-page {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.advantage { 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.advantages-page > .advantage > div > img {
+    width: 25rem;
+    height: 17.5rem;
+    padding: 1.25rem;
+}
+
+.advantage-inscription {
+    font-size: 3rem;
+    width: 25rem;
+    height: 17.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left ;
+}
+
+.advantage-inscription > p {
+    width: 17.5rem;
+}
+
+.advantage-text {
+    padding: 2rem;
+}
+
+.advantages-page > .advantage > .advantage-text > h2 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-weight: 300;
+    margin-top: 0.7rem;
+}
+
+.advantages-page > .advantage > .advantage-text > i {
+    font-size: 3rem;
+}
+
+.advantages-page > .advantage > .advantage-text > p {
+    max-width: 37rem;
+    margin-top: 1rem;
+}
