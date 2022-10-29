@@ -1,0 +1,43 @@
+@media (max-width: 824px) {
+    .gallery-page > div {
+        flex: 100%;
+    }
+
+    .team-page {
+        flex-wrap: wrap;
+    }
+
+    .team-text {
+        padding: 5rem;
+    }
+}
+
+@media (min-width: 825px) and (max-width: 1176px) {
+    .idea-img {
+        padding: 0rem 11rem;
+    }
+}
+
+@media (min-width: 1176px) {
+    .idea {
+        margin-left: 10rem;
+    }
+
+    .idea-img {
+        margin-left: 5rem;
+        margin-top: 0;
+    }
+
+    .gallery-page > div {
+        flex: 25%;
+    }
+}
+
+@media (max-width: 936px) and (min-width: 824px) {
+    .team-img1 > img {
+        width: 13rem;
+    }
+    .team-img2 > img {
+        width: 13rem;
+    }
+}
