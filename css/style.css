@@ -6,6 +6,10 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000;
 }
@@ -25,7 +29,31 @@ body {
 
 nav {
     font-size: 1.5rem;
-    margin-top: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.nav-bar {
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem 0;
+    list-style: none;
+    transition: 0.7s;
+}
+
+.nav-bar-active {
+    left: 0;
+}
+
+.nav-active {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.nav-item:hover {
+    cursor: pointer;
 }
 
 .logo {
@@ -194,7 +222,7 @@ nav {
 .team-text {
     text-align: center;
     width: 20rem;
-    margin: 0 4rem;
+    margin: 0 1rem;
     font-weight: bolder;
 }
 
