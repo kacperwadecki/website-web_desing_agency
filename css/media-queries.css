@@ -2,13 +2,21 @@
     .gallery-page > div {
         flex: 100%;
     }
-
+    
     .team-page {
         flex-wrap: wrap;
     }
 
     .team-text {
-        padding: 5rem;
+        padding: 0rem;
+    }
+}
+@media (max-width: 936px) and (min-width: 824px) {
+    .team-img1 > img {
+        width: 13rem;
+    }
+    .team-img2 > img {
+        width: 13rem;
     }
 }
 
@@ -40,11 +48,3 @@
     }
 }
 
-@media (max-width: 936px) and (min-width: 824px) {
-    .team-img1 > img {
-        width: 13rem;
-    }
-    .team-img2 > img {
-        width: 13rem;
-    }
-}

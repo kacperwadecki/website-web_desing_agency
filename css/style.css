@@ -104,8 +104,7 @@ nav {
 
 .advantage > div > img {
     height: 17.5rem;
-    padding: 1.25rem;
-    width: 25rem;
+    width: 20.188rem;;
 }
 
 .advantage-inscription {
@@ -117,7 +116,6 @@ nav {
     justify-content: center;
     text-align: left ;
     text-transform: uppercase;
-    width: 27.5rem;
 }
 
 .advantage-inscription > p {
@@ -168,12 +166,12 @@ nav {
 .idea-text {
     font-size: 3rem;
     font-weight: lighter;
-    left: -7rem;
+    left: -5.3rem;
     position: absolute;
     text-align: center;
     text-transform: uppercase;
     top: 1rem;
-    width: 26rem;
+    width: 21.188rem;;
 }
 
 .idea-img {
@@ -186,7 +184,7 @@ nav {
 .idea-img > img {
     height: 30.188rem;
     padding: 1rem;
-    width: 27.625rem;
+    width: 18.625rem;
 }
 
 /* gallery-page */
@@ -239,6 +237,11 @@ nav {
     text-transform: uppercase;
 }
 
+.team-text > p {
+    width: 14.5rem;
+    margin: auto;
+}
+
 .team-text > a {
     font-size: 4rem;
 }
@@ -269,14 +272,14 @@ nav {
 }
 
 .test-text > h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
 .test-text > blockquote {
     margin-top: 1rem;
-    width: 30rem;
+    width: 20rem;
 }
 
 .test-text > blockquote > footer {
@@ -290,21 +293,21 @@ nav {
 
 .test-img > div {
     background-color: var(--div-bacground-color);
-    height: 19rem;
+    height: 13rem;
     margin: auto;
     margin-top: 4rem;
     transform: rotate(45deg);
-    width: 19rem;
+    width: 13rem;
 }
 
 .test-img > img {
     border-radius: 50%;
-    height: 22rem;
-    left: -23px;
+    height: 15rem;
+    left: -15px;
     object-fit: cover;
     position: absolute;
-    top: 35px;
-    width: 22rem;
+    top: 50px;
+    width: 15rem;
 }
 
 /* information-page */
